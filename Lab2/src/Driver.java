@@ -18,24 +18,24 @@ public class Driver {
 		students.add(s1);
 		students.add(s2);
 		students.add(s3);
-		
-		
-		System.out.println("Initital list:");
+
+		System.out.println("Initial list:");
 		for (Student s : students) {
-			System.out.println("Name:" + s.getName());
-			System.out.println("Age:" + s.getAge());
+			System.out.println("Name: " + s.getName());
+			System.out.println("Age: " + String.valueOf(s.getAge()));
 		}
-		
+
 		Collections.sort(students);
-		
+
 		System.out.println("\nList sorted based on NAME:");
-		for (Student s :students) {
-			System.out.println("Name:", + s.getName());
-			System.out.println("Age:", + s.getAge());
+		for (Student s : students) {
+			System.out.println("Name: " + s.getName());
+			System.out.println("Age: " + String.valueOf(s.getAge()));
 		}
 		
 		
 		
 	}
 
+	
 }
